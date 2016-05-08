@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Pull all submodules for this repo..
+git pull --recurse-submodules
+
 # install fonts into ~/.local/fonts/ and update font cache for user account.
 ./fonts/install.sh
 
