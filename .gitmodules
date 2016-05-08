@@ -1,0 +1,24 @@
+[submodule "fonts"]
+	path = fonts
+	url = https://github.com/powerline/fonts.git
+[submodule "vim_files/.vim/bundles/vim-pathogen"]
+	path = vim_files/.vim/bundles/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule "vim_files/.vim/bundles/vim-gitgutter"]
+	path = vim_files/.vim/bundles/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim_files/.vim/bundles/vim-color-schemes"]
+	path = vim_files/.vim/bundles/vim-color-schemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim_files/.vim/bundles/vim-fugitive"]
+	path = vim_files/.vim/bundles/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim_files/.vim/bundles/vim-yankring"]
+	path = vim_files/.vim/bundles/vim-yankring
+	url = https://github.com/vim-scripts/YankRing.vim
+[submodule "vim_files/.vim/bundles/vim-airline"]
+	path = vim_files/.vim/bundles/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim_files/.vim/bundles/vim-airline-themes"]
+	path = vim_files/.vim/bundles/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
