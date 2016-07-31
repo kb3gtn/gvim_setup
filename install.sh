@@ -4,7 +4,12 @@
 git submodule update --recursive --init
 
 # install fonts into ~/.local/fonts/ and update font cache for user account.
-./fonts/install.sh
+if [ "$1" != "no_fonts" ]; then
+    echo "***** Installing fonts.. *****"
+    ./fonts/install.sh
+else
+    echo "Skipping install of powerline fonts.."
+fi
 
 # copy over vim configuration stuff to user's home directory.
 cp ./vim_files/.vim ~/ -Rfv
