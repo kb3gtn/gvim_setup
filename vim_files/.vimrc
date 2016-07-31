@@ -15,7 +15,7 @@ set ttyfast
 set nocompatible
 
 " Add pathogen to runtime manually.. this load all other bundles..
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+runtime bundles/vim-pathogen/autoload/pathogen.vim
 
 " Load Pathogen 
 execute pathogen#infect('bundles/{}')
